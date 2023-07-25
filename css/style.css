@@ -1,0 +1,412 @@
+*{  
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+/*CONTACTO*/
+
+.contacto_contenido{
+    background-color: #B3AC7F;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.arriba{
+    background-color: #dbdbc4;
+}
+
+.arriba_header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25vh; 
+    padding: 1rem;
+}
+.arriba_header_logo{
+    height: 200px;
+    width: 200px;
+    
+}
+nav ul li{
+    font-weight: 700;
+}
+.form-control{
+    border-bottom: black 3px solid;
+    border-top: black 3px solid;
+    border-left: black 3px solid;
+    border-right: black 3px solid;
+
+}
+
+
+.carousel-item{
+    width: 100%;
+    padding:40px 80px 40px 80px;
+    background-color: black;
+
+    
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 500px;
+    padding: 40px;
+}
+
+.gif{
+    
+    background-color: #B3AC7F;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.gif img{
+    width: 100%;
+    height: 100%;
+}
+
+.productos{
+    background-color: #D1BE94;
+    padding-bottom: 30px;
+    
+
+}
+.productos_galeria{
+    display: grid;
+    grid-auto-rows: 500px;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+}
+
+.productos_index{
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 375px;
+
+}
+.productos_index div a{
+    text-decoration: none;
+    color:snow;
+    text-shadow: 0 0 5px black;
+    
+    
+}
+
+.productos_index div a h2{
+    backdrop-filter: blur(20px);
+    backdrop-filter:invert(10%);
+    backdrop-filter: brightness(50%);
+    height: 100%;
+    
+    
+}
+
+.buzos{
+
+    background-image: url(../imagenes/imagenes.secciones/buzo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 50%;
+    
+
+
+}
+
+.camperas{
+    background-image: url(../imagenes/imagenes.secciones/campera.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 50%;
+}   
+
+.remeras{
+    background-image: url(../imagenes/imagenes.secciones/Remera.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 50%;
+}
+
+.pantalones{
+    background-image: url(../imagenes/imagenes.secciones/pantalon.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 50%;
+}
+
+.zapatillas{
+    background-image: url(../imagenes/imagenes.secciones/zapatilla.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 50%;
+}
+
+.gorras{
+    background-image: url(../imagenes/imagenes.secciones/gorra.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 50%;
+}
+
+.bolsos{
+    background-image: url(../imagenes/imagenes.secciones/bolso.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 50%;
+}
+
+.medias{
+    background-image: url(../imagenes/imagenes.secciones/medias.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 50%;
+}
+
+@media (max-width: 1199px){
+    .footer{
+    border-top: 3px solid black;
+    background-color: black;
+    color: white;
+    grid-auto-rows: 375px;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    }
+
+
+
+    .contactanos h2 ul li{
+    text-decoration: none;
+    }
+
+    .seguinos{
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    
+    }
+
+    .seguinos ul li a{
+    text-decoration: none;
+    color: white;
+    }
+    .lavado h2 a{
+    color: white;
+    text-decoration: none;
+    }
+
+
+    .talle{
+    border-top: 1px solid white;
+    text-decoration: none;
+    
+    }
+
+    .talle h2 a{
+    color: white;
+    text-decoration: none;
+    }
+
+    .metodosdepago {
+    
+    border-top: 1px solid white;
+
+    }
+
+    .decoracionfooter{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    }
+
+    .aimara_foto{
+        width: 100%;
+        height: 200px;
+    }
+    
+    .simon_foto{
+        width: 100%;
+        height: 200px;
+        
+    }
+
+}
+
+/* Pages*/
+
+.productossale{
+    background-color:#D1BE94;
+}
+
+.imagenessale{
+    width: 150px;
+    height: 150px;
+}
+
+.seccionproductos{
+    background-color: #D1BE94;
+    
+}
+
+.productosimagen{
+    width: 300px;
+    height: 300px;
+    padding-right: 20px;
+    
+}
+
+
+
+.nuevosingresos{
+    background-color:#D1BE94 ;
+    padding-bottom: 30px;
+}
+
+
+.imagenesnuevosingresos{
+    width: 300px;
+    height: 300px;
+    padding-right: 20px;
+}
+
+
+
+.sobrenosotros{
+    background-color: #D1BE94;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+@media (min-width: 1200px) {
+
+    footer{
+        border-top: 3px solid black;
+        background-color: black;
+        color: white;
+        display: flex;
+        padding: 8px 8px 8px 8px;
+    }
+    
+    footer div{
+        flex: 1;
+    }
+    
+    .primerafilafooter{
+        padding-left: 1rem; ;
+    }
+    
+    .contactanos h2 ul li{
+        text-decoration: none;
+        
+    }
+    
+    .seguinos{
+        text-decoration: none;
+        padding-top: 10%;
+    }
+    .seguinos a{
+        text-decoration: none;
+        color: white;
+    }
+    .lavado{
+        padding-top: 5rem;
+        border-left: 1px white solid;
+        padding-left: 3rem;
+    }
+    .lavado a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .talle{
+        padding-top: 5rem;
+        text-decoration: none;
+        border-left: 1px white solid;
+        border-right: 1px white solid;
+        padding-left: 3rem;
+    }
+    .talle a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .metodosdepago {
+        margin-top: 2rem;
+        padding-left: 2rem;
+    
+    }
+    
+    .decoracionfooter{
+        color: white;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .gif{
+        display: flex;
+    }
+    .gif img{
+        width: 50%;
+    }
+    .gif p{
+        width: 50%;
+    }
+
+    .arriba_header{
+        display: inline;
+    }
+    
+    .arriba_header_imagen{
+        text-align: center;
+        
+    }
+
+    .arriba_header_logo{
+        width: 300px;
+        height: 300px;
+        
+        
+    }
+    
+    .aimara{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+        padding-left:20px;
+    }
+    .aimara_foto{
+        width: 500px;
+        height: 500px;
+    }
+    .simon{
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    .simon_foto{
+        width: 437.5px;
+        height: 500px;
+    }
+    
+
+}
+
